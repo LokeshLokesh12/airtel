@@ -558,13 +558,13 @@ a .square{
 }
 
 .block {
-    flex: 0 1;
+    /* flex: 0 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 150px;
-    min-height: 120px;
+    width: 150px;
+    height: 120px;
     margin: 0 20px 50px 0;
     padding: 18px;
     border-radius: 4px;
@@ -848,4 +848,6 @@ a .square{
     background-color:red;
     color: #fff;
 }
-
+.wynk-music-main{
+    height: 100vh
+}
