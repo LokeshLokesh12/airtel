@@ -285,7 +285,7 @@
     .header{
         height: 60px;
     }
-    
+   
     .header .container{
         width: 86%;
 
@@ -334,9 +334,10 @@
     }
     .quick-actions-container ul li{
         /* margin-right: 14px; */
-        margin-right: 24px;
+        margin-right: 20px;
         display: block;
-        width: 150px;
+        width: 95px;
+        padding: 14px;
     }
     .form-menu ul{
         margin-top: 7%;
@@ -349,7 +350,7 @@
         width: 115px;
     }
     .square p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .something .someform .recharge-box{
         width: 98%;
@@ -381,7 +382,7 @@
         line-height: 35px;
     }
     .text-content a{
-        margin: 45px 35px;
+        margin: 45px 0 0 45px;
         font-size: 15px;
     }
     .text-content {
