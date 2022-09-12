@@ -729,10 +729,6 @@ a .square{
     align-items: center;
     min-width: 100px;
     flex: 1 1;
-    
-
-    /* margin-top: 50px; */
-
 }
 .xstream-blocks-1 img,
 .xstream-blocks-2 img{
@@ -747,8 +743,6 @@ a .square{
     gap: 20px;
     margin-top: -84px;
 }
-   
-
 .xstream-product .btn{
     display: flex;
     justify-content: center;
@@ -844,7 +838,6 @@ a .square{
     letter-spacing: normal;
     color: #fff;
 }
-.talk-unlimited-main .container .left a {}
 .talk-unlimited-main .container .left a h4{
     background-color: #fff;
     display: inline-block;
@@ -1046,10 +1039,6 @@ footer .container .upper-section .foot-right a h3{
 .social-icons .color:hover{
     color: red;
 }
-.lower-section{
-    /* display: flex; */
-}
-
 .links{
     display: inline-flex; 
     width: 100%;  
@@ -1075,6 +1064,6 @@ footer .container .upper-section .foot-right a h3{
 }
 .img-sec{
     margin: 0 0 0 40px;
-    /* text-align: center; */
+    
 }
-.
+
