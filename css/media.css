@@ -359,15 +359,18 @@
     .international-roaming-main{
         height: auto;
     }
-    .right-text{
+    .right-text- p{
+        margin: 50px 0 20px;
+    }
+    .right-text-{
         margin: 0 0 0 15px;
         width: 100%;
 
     }
-    .right-text p{
+    .right-text- p{
         margin: 40px 0 20px;
     }
-    .right-text h4 {
+    .right-text- h4 {
         font-size: 24px; 
         margin: 0px 0 10px;
     }
@@ -462,6 +465,9 @@
         width: 90%;
         margin: 5%;
     }
+    .wynk-music-main .container .content-left img{
+        width: 100%;
+    }
     .wynk-music-main .container .content-right {
         width: 100%;
         margin: 25px 0 19px 17px;
@@ -469,14 +475,16 @@
     .wynk-music-main .container .content-right h6 {
         margin: 0 0 5px;
     }
+
     /* .airtel-thanks-app-main .container {
         display: block;
     } */
     .app-left img {
-        margin: 55px 0px 55px 10%;
+        margin: 55px 0px 55px -5%;
     }
     .app-right{
         margin-top: 115px;
+        margin: 70px 0 0% 3%;
     }
     .app-right p {
         font-size: 14px;
@@ -493,8 +501,332 @@
         margin: -10px 0px;
     }
     .app-on img {
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    footer .container .upper-section {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    footer .container .upper-section .foot-left {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right a h3 {
+        margin: 25px 0;
+    }
+    footer .container .upper-section .foot-left ul{
+        font-size: 7px;
+    }
+    .social-icons {
+        width: 100%;
+        margin: 40px 0 10px 0;
+    }
+    .links {
+        display: block;
+    }    
+    .links .link-list {
+        display: block;
+        font-size: 11px;
+    }
+    .links .link-list a li{
+        margin-bottom: 10px;
+    }
+    .img-sec {
+        margin: 10px 0 ;
+        display:inline-block        
+    }
+    .img-sec img{
+        margin-right: 10px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 0px;
+    }   
+    footer .container .upper-section .foot-left h3 {
+        position: relative;
+        color: #393939;
+        font-size: 15px;
+        padding-bottom: 11px;
+        margin-top: -35px;
+    }
+    .remenu {
+        width:100%;
+    }
+    .form-menu ul li img {
+        height: 15px;
+    }
+    .something .someform .recharge-box .remenu form {
+        width: 100%;
+    }
+    .something .someform .form-menu {
+        height: 30%;
+        width: 97%;
+    }
+    .something .someform .recharge-box {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .something .someform .recharge-box {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .form-menu ul {
+        margin-top: 7%;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+
+@media only screen and (max-width: 426px){
+    .airtel_part{
+        display: none;
+    }
+
+    .airtel_part ul{
+        left: 13%; 
+    }
+    .prepaid h3{
+        display: none;
+    }
+    .content-list{
+        display: none;
+    }
+    .main-content .logo img {
+        width: 125px;
+        margin-top: 30%;
+        margin-left: -75%;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .header{
+        height: 60px;
+    }
+   
+    .header .container{
+        width: 86%;
+
+    }
+    .option{
+        margin-left: 60%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .option a #get-img {
+        margin-left: 13px;
+    }
+    .option a img{
+        margin: 0 0 0 0px;
+    }
+    .option a p{
+        margin: 0 0 0 0;
+    }
+    .something .sometext{
+        display: none;
+    }
+    .something .someform {
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        justify-self: center;
+        /* margin-left: 2%; */
+    }
+    .ljk h1{
+        font-size: 25px;
+    }
+    .form-menu ul li img {
+        display: block;
+        height: 10px;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+        display: flex;
+        font-size: 8px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        width: 98%;
+        margin-top: 2% 0;
+    }
+    .quick-actions-container ul li{
+        /* margin-right: 14px; */
+        margin-right: 20px;
+        display: block;
+        width: 95px;
+        padding: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+        display: flex;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
         width: 115px;
-        height: 40px;
+    }
+    .square p{
+        font-size: 12px;
+    }
+    .something .someform .recharge-box{
+        width: 98%;
+        margin-right: 2%;
+    }
+    .international-roaming-main{
+        height: auto;
+    }
+    .right-text- p{
+        margin: 50px 0 20px;
+    }
+    .right-text-{
+        margin: 0 0 0 15px;
+        width: 100%;
+
+    }
+    .right-text- p{
+        margin: 40px 0 20px;
+    }
+    .right-text- h4 {
+        font-size: 24px; 
+        margin: 0px 0 10px;
+    }
+    .button a h5 {
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .text-content .heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .text-content a{
+        margin: 45px 0 0 45px;
+        font-size: 15px;
+    }
+    .text-content {
+        width: 100%;
+        padding: 40px 20px 40px 0;
+    }
+    .img-content{
+        display: none;
+    }
+    .postpaid-girl{
+        display: none;
+    }
+    .underline{
+        margin-top: -5%;
+        margin-bottom: 10px;
+    
+    }
+    .airtel-prepaid-box .container {
+        padding: 40px 40px 0 10px;
+        width: 100%;
+    }
+    .box-content-head h4{
+        margin: 0 0 10px;
+    }
+    .box-content-head p{
+        margin: 0 0 20px;
+        
+    }
+    .block{
+        max-width: 115px;
+        max-height: 130px;
+        /* flex: 1 0; */
+    }
+    .block p{
+        margin: 5px 0 10px;
+        font-size: 9px;
+    }
+    .block h4 {
+        margin: 0 0 5px;
+    }
+    .xstream-cover .heading {
+        font-size: 18px;
+    }
+    .xstream-banner img{
+        /* margin: 0 0 0 40px; */
+        overflow-x: hidden;
+    }
+    .xstream-blocks-1 img, .xstream-blocks-2 img {
+        width: 110px;
+        height: 80px;
+    }
+    .talk-unlimited-main{
+        margin-top: 40px;
+        height: auto;
+    }
+    .talk-unlimited-main .container .right img {
+        /* display: none; */
+        width: 100%;
+        height: 150px;
+        margin: 0 0 0 20%;
+    }
+
+    .talk-unlimited-main .container {
+        display: block;
+    }
+    .talk-unlimited-main .container .left{
+        height: 50%;
+        width: 100%;
+        margin: 25px 0 0 15px
+    }
+    .underline-3{
+        display: none;
+    }
+    .wynk-music-main .container{
+        display: block;
+    }
+    .wynk-music-main .container .content-left {
+        width: 90%;
+        margin: 5%;
+    }
+    .wynk-music-main .container .content-left img{
+        width: 100%;
+    }
+    .wynk-music-main .container .content-right {
+        width: 100%;
+        margin: 25px 0 19px 17px;
+    }    
+    .wynk-music-main .container .content-right h6 {
+        margin: 0 0 5px;
+    }
+
+    /* .airtel-thanks-app-main .container {
+        display: block;
+    } */
+    .app-left img {
+        margin: 55px 0px 55px -5%;
+    }
+    .app-right{
+        margin-top: 115px;
+        margin: 70px 0 0% 3%;
+    }
+    .app-right p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .app-right h4 {
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 10px;
+    }
+    .app-right img {
+        height: 80px;
+        width: 80%;
+        margin: -10px 0px;
+    }
+    .app-on img {
+        width: 90px;
+        height: 30px;
         margin-top: 10px;
     }
     footer .container .upper-section {
@@ -538,7 +870,7 @@
     footer .container .upper-section .foot-left h3 {
         position: relative;
         color: #393939;
-        font-size: 15px;
+        font-size: 11px;
         padding-bottom: 11px;
         margin-top: -35px;
     }
