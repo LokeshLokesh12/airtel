@@ -286,6 +286,9 @@
     }
     .header{
         height: 60px;
+        position: fixed;
+        padding-top: .5%;
+
     }
    
     .header .container{
@@ -308,6 +311,12 @@
         text-transform: capitalize;
         font-size: 13px;
 
+    }
+    #home{
+        margin: 14% 0 0 0 !important;
+    }
+    .hite {
+        height: 200px !important;
     }
     .something .sometext{
         display: none;
@@ -638,7 +647,7 @@
         display: block;
     }
     .img-left- {
-        /* width: 86%; */
+        width: 86%;
     }
     .get-app{
         display: none;
@@ -664,6 +673,7 @@
     }
     .header{
         height: 60px;
+        position: fixed;
     }
    
     .header .container{
@@ -671,7 +681,7 @@
 
     }
     .option{
-        margin-left: 60%;
+        margin-left: 7      0%;
         height: 30px;
         margin-top: 5px;
     }
@@ -712,10 +722,11 @@
         height: 30%;
         width: 98%;
         margin-top: 2% 0;
+        margin: 0 0 0 5px;
     }
     .quick-actions-container ul li{
-        /* margin-right: 14px; */
-        margin-right: 20px;
+        margin-right: 14px;
+        /* margin-right: 20px; */
         display: block;
         width: 95px;
         padding: 14px;
@@ -823,7 +834,7 @@
         height: auto;
     }
     .talk-unlimited-main .container .right img {
-        /* display: none; */
+        display: none;
         width: 100%;
         height: 150px;
         margin: 0 0 0 20%;
@@ -945,6 +956,7 @@
     .something .someform .form-menu {
         height: 30%;
         width: 97%;
+        margin: 0 0 0 5px;
     }
     .something .someform .recharge-box {
         width: 100%;
@@ -985,6 +997,12 @@
     .app-right {
         margin: 45px 0 0% 3%;
     }
+    .header{
+        position: fixed;
+    }
+    #home{
+        margin: 0 0 0 0 !important;
+    }
     .block {
         margin: 0 15px 50px 0;
     }
@@ -1009,8 +1027,10 @@
         margin-left: 5%;
         /* background-color: yellow; */
     }
+
     .img-left- {
         /* width: 94%; */
+        width: 97.7% !important;
     }
     .xstream-cover .heading {
         font-size: 17px;
@@ -1042,12 +1062,16 @@
     .something .someform .form-menu {
         height: 30%;
         width: 100%;
+        margin: 0px 0 0 0px !important;
     }
 
 }
 @media only screen and (max-width:381px){
     .img-left- {
         /* width: 97%; */
+    }
+    .header{
+        position: fixed;
     }
     .xstream-cover .heading {
         font-size: 15px;
