@@ -265,6 +265,7 @@
         display: none;
     }
 
+
     .airtel_part ul{
         left: 13%; 
     }
@@ -304,6 +305,9 @@
     }
     .option a p{
         margin: 0 0 0 0;
+        text-transform: capitalize;
+        font-size: 13px;
+
     }
     .something .sometext{
         display: none;
@@ -426,6 +430,7 @@
         margin: 0 0 5px;
     }
     .xstream-cover .heading {
+        
         font-size: 18px;
     }
     .xstream-banner img{
@@ -484,7 +489,7 @@
     }
     .app-right{
         margin-top: 115px;
-        margin: 70px 0 0% 3%;
+        margin: 115px 0 0% 3%;
     }
     .app-right p {
         font-size: 14px;
@@ -519,9 +524,7 @@
     footer .container .upper-section .foot-right a h3 {
         margin: 25px 0;
     }
-    footer .container .upper-section .foot-left ul{
-        font-size: 7px;
-    }
+    
     .social-icons {
         width: 100%;
         margin: 40px 0 10px 0;
@@ -580,12 +583,64 @@
         width: 100%;
         justify-content: space-around;
     }
+    .international-roaming-main .container{
+        display: block;
+    }
+    .img-left- {
+        /* width: 72%; */
+    }
+    .play-air-thanks{
+        display: none;
+    }
+    .footer-for-mob{
+        display: block;
+    }
+    .foot-left .quick-content{
+        display: none !important;
+    }
+    .foot-left .footer-for-mob{
+        margin: 10% 0 0 0;
+    }
+    .foot-left .footer-for-mob details summary {
+        font-size: 20px;
+    }
+    footer .container .upper-section .foot-left ul{
+        font-size: 14px;
+        margin: 2% 0 0 5%;
+    }
+    .bt2{
+        display: none;
+    }
+    .footer-for-mob .btt h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-size: 24px;
+    /* margin: 0 0 0 5% 0 !important; */
+    margin-bottom: 5%;
+    /* padding-bottom: 5%; */
+    }
+
+    .links .link-list{
+        width: 100%;
+    }
+    
 }
 
 
 
 @media only screen and (max-width: 426px){
+    
     .airtel_part{
+        display: none;
+    }
+    .international-roaming-main .container{
+        display: block;
+    }
+    .img-left- {
+        /* width: 86%; */
+    }
+    .get-app{
         display: none;
     }
 
@@ -628,6 +683,8 @@
     }
     .option a p{
         margin: 0 0 0 0;
+        text-transform: capitalize;
+        font-size: 11px;
     }
     .something .sometext{
         display: none;
@@ -683,6 +740,7 @@
     .international-roaming-main{
         height: auto;
     }
+    
     .right-text- p{
         margin: 50px 0 20px;
     }
@@ -876,6 +934,7 @@
     }
     .remenu {
         width:100%;
+        
     }
     .form-menu ul li img {
         height: 15px;
@@ -901,4 +960,104 @@
         width: 100%;
         justify-content: space-around;
     }
+    
+    .play-air-thanks{
+        display: none;
+    }
 }
+@media only screen and (max-width: 391px){
+    .option {
+        margin-left: 75%;
+    }
+    /* .app-left img {
+        width: 150px;
+    } */
+    .app-left img {
+        margin: 55px 0px 55px 0%;
+        width: 150px;
+    }
+    .app-left {
+        width: auto;
+    }
+    .app-right h4 {
+        font-size: 17px;
+    }
+    .app-right {
+        margin: 45px 0 0% 3%;
+    }
+    .block {
+        margin: 0 15px 50px 0;
+    }
+    .block3{
+        margin:0 0px 50px 0 ;
+    }
+    /* .box-content-head{
+        width: auto;
+    } */
+    .quick-actions-container ul li {
+        /* margin-right: 14px; */
+        width: 90px;
+        height: 100px;
+    }
+    .quick-actions-container ul li p {
+        margin-top: 12px;
+    }
+    .square p {
+        font-size: 11px;
+    }
+    .quick-actions-container {
+        margin-left: 5%;
+        /* background-color: yellow; */
+    }
+    .img-left- {
+        /* width: 94%; */
+    }
+    .xstream-cover .heading {
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+    .xstream-blocks-1 img, .xstream-blocks-2 img {
+        width: 90px;
+        height: 50px;
+    }
+    .xstream-blocks-3 img {
+        height: 50px;
+    }
+    .xstream-product p{
+        font-size: 13px;
+    }
+    .xstream-product .btn{
+        padding: 10px 0;
+    }
+    .xstream-blocks {
+        margin: 0 0 10%;
+    }
+    footer .container .upper-section .foot-left ul {
+        font-size: 10px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 15%;
+    }
+    .something .someform .form-menu {
+        height: 30%;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:381px){
+    .img-left- {
+        /* width: 97%; */
+    }
+    .xstream-cover .heading {
+        font-size: 15px;
+    }
+    .xstream-product p {
+        font-size: 12px;
+    }  
+    .text-content a {
+        margin: 45px 0 0 45px;
+        font-size: 13px;
+    } 
+}
+    
