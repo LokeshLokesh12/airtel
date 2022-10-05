@@ -29,6 +29,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/43a0dde7d3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/onload.css">
+  <script src="./javascript/onload.js"></script>
 
 </head>
 
@@ -41,7 +43,26 @@
   </style>
 
 
-  <div class="header">
+  <!-- onload -->
+
+  <div class="onload-fram" id="onload-fram">       
+    <div class="onload-main" id="">
+        
+        <button class="onload-span" id="close_button" onclick="close_button()">
+            X
+        </button>
+            
+        
+        <img src="./images/Fiber_dth_699.webp" alt="">
+    </div>     
+  </div>
+
+  <script>
+    window.onload = onload()
+  </script>
+
+
+  <div class="header" id="header">
     <div class="airtel_part">
       <ul>
         <a href="/payment.html">
