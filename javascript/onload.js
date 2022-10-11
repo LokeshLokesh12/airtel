@@ -1,8 +1,10 @@
 function onload(){
     document.getElementById("onload-fram").style.display = 'flex' ;
-    document.getElementById("header").style.position =''
+    document.body.style.overflow = 'hidden'
+   
 }
 function close_button(){
     document.getElementById("onload-fram").style.display = 'none' ;
+    document.body.style.overflow = 'auto'
 
 }
