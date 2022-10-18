@@ -7,6 +7,49 @@
     scroll-behavior: smooth;
     
 }
+.mode-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    margin: 5% 0 0 0 ;
+    border-radius:5px ;
+    padding: 5px;
+}
+.mode-button button img{
+    height: 20px;
+    width: 20px;
+    margin: 0 5px 0 0 ;
+}
+.mode-button button p{
+    margin: 2px 0 0 0;
+}
+
+.dark-mode{
+    --White-black:#181818;
+    --black-white:#fff;
+    --header-part:#282828;
+    --header-part-text:#B3B3B3;
+    --black-white-text:#fff;
+    --red-black:#282828;
+    --somered-lightgray:#282828;
+    --gray-darkgray:#1d1d1d;
+    --footer-color:#fff;
+
+
+}
+:root{
+    --White-black:#fff;
+    --black-white:#000;
+    --header-part:#f5f5f5;
+    --header-part-text:#6d6c6c;
+    --black-white-text:#000;
+    --red-black:red;
+    --gray-darkgray:#f2f4f5;
+    --footer-color:#393939;
+    --somered-lightgray:linear-gradient(135deg,#b00,#8d0000);
+
+}
 body{
     background-color: #f2f4f5;
     font-family: 'Nunito sans',sans-serif;
@@ -19,7 +62,7 @@ body{
 }
 .airtel_part a{
     text-decoration: none; 
-    color: #6d6c6c;
+    color: var(--header-part-text);
     cursor: pointer;
 }
 
@@ -29,12 +72,13 @@ body{
  top: 0%;
  z-index: 100;
  height: 100px;
- background-color: #fff;
+ background-color: var(--White-black);
 }
 
 .airtel_part{
-    background-color:#f5f5f5    ;
+    background-color:var(--header-part);
     min-height: 24px;
+    color: var(--White-text);
     display: flex;
     float: right;
     width: 100%;
@@ -43,6 +87,7 @@ body{
 }
 .airtel_part ul{
     font-size: 10px;
+    color: var(--White-text);
     gap: 10px;
     position: absolute;
     left:57%;
@@ -56,7 +101,7 @@ body{
 
 }
 .airtel_part a:hover{
-    color: black;
+    color: var(--black-white-text);
     text-decoration: none;
     font-weight:545;
     transition: .1s;
@@ -79,6 +124,7 @@ body{
 .content-list{
     width: 70%;
     margin-left: 15px;
+    
 }
 .prepaid h3{
     padding: 0%;
@@ -91,13 +137,16 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     float: left;
+    color: var(--black-white-text) !important;
+    /* color: #fff; */
     
 }
-.prepaid:hover{
-    color: red;
-}
+/* .prepaid:hover{
+    color: red !important;
+} */
+
 .prepaid h3:hover{
-    color: red;
+    color: red !important;
 }
 .prepaid ul,li {
     list-style: none;
@@ -114,10 +163,22 @@ body{
     width: 15px;
     height: 15px;
     margin-left: 10px;
+    color: var(--black-white-text) ;
+   
+}
+/* .down-svg{
+    transition: 350ms;
+
+} */
+.prepaid:hover .down-svg{
+    transform: rotate(180deg);
+    transition: 350ms;
+    color: red;
+    
 }
 
 .list li:hover{
-    color: red;
+    color: red !important;
 }
 
 .submenu ul {
@@ -184,11 +245,7 @@ body{
     display: block;
     cursor:pointer;
 }
-.prepaid:hover .down-svg{
-    transform: rotate(180deg);
-    transition: 350ms;
-    
-}
+
 
 .option{
     display: flex;
@@ -197,7 +254,7 @@ body{
 }
 .option a{
     text-decoration: none;
-    color: black;
+    color: var(--black-white-text);
     font-size: 12px;
     
 }
@@ -240,7 +297,9 @@ body{
     width: 100%;
     display: flex;
     
-    background-image: linear-gradient(135deg,#b00,#8d0000);
+    background-image: var(--somered-lightgray);
+    background-color: var(--somered-lightgray);
+    /* background-color: var(--red-black); */
     
 }
 .something .sometext{
@@ -332,6 +391,15 @@ border-radius: 10px;
     color: #fff;
     border-radius: 5px;
 }
+
+.lkj{
+    background-color: var(--gray-darkgray);
+}
+.lkj .container h1{
+    color: var(--black-white);
+}
+
+
 a .square{
     background-color: red
 }
@@ -911,6 +979,9 @@ a .square{
     /* transform: scale(1 ); */
     transform: scale(1.05);
 }
+footer{
+    background: var(--White-black) !important;
+}
 footer .container{
     height: 690px;
 
@@ -925,7 +996,7 @@ footer .container .upper-section{
     /* border: 5px solid rgb(205, 50, 164); */
 }
 footer .container .lower-section{
-    height: 20%;
+    height: auto;
     width: 100%;
     /* border: 5px solid red; */
 }
@@ -949,7 +1020,7 @@ footer .container .upper-section .foot-left .quick-content{
 }
 footer .container .upper-section .foot-left h3{
     position: relative;
-    color: #393939;
+    color: var(--footer-color);
     font-size: 16px;
     padding-bottom: 16px;
 }
