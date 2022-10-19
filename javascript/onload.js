@@ -1,13 +1,13 @@
-// function onload(){
-//     document.getElementById("onload-fram").style.display = 'flex' ;
-//     document.body.style.overflow = 'hidden'
+function onload(){
+    document.getElementById("onload-fram").style.display = 'flex' ;
+    document.body.style.overflow = 'hidden'
    
-// }
-// function close_button(){
-//     document.getElementById("onload-fram").style.display = 'none' ;
-//     document.body.style.overflow = 'auto'
+}
+function close_button(){
+    document.getElementById("onload-fram").style.display = 'none' ;
+    document.body.style.overflow = 'auto'
 
-// }
+}
 
 // for change darkmode -- lightmode
 
