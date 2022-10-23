@@ -442,6 +442,85 @@ a .square{
 .li-box:hover{
     transform: scale(1.05);
 }
+/* we-offer */
+.weather-off{
+    background-image:linear-gradient(135deg,#b00,#8d0000);
+    width: 100%;
+   
+    padding: 20px 0;
+    background-color: #8d0000;
+}
+.weather-off .container{
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.weather-off #we-but{
+    font-size: 19px;
+    /* font-family: ; */
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    transition: 1ms;
+    position: absolute;
+}
+.weather-off h5{
+    display: block;
+}
+.weather-off a{
+    display: none;
+}
+.weather-off #we-but:active ,
+.recharge-button:active
+{
+    background-color: #202020;
+    transition: 1ms;
+    color:#fff;
+}
+.we-offer-par{
+    display: none;
+    width: 100%;
+  
+    height: 100%;
+
+    justify-content: space-evenly !important;
+    align-items: center;
+}
+
+
+.we-offer-par .main-offer{
+    padding: 10px 40px;
+    background-color: whitesmoke;
+    border-radius:5px;
+    margin: 10px 0 0 -15px;
+}
+#we-heading{
+    display: block;
+    margin:0 0  15px 0;
+    color: #fff;
+    text-transform: capitalize; 
+    font-size: 3rem;
+    
+}
+.recharge-button{
+    background-color: #b00;
+    color:#fff;
+    padding: 5px 10px;
+    font-size: 19px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 1ms;
+}
+
+/* airtel-black */
+
 .airtel-black-box-content{
     width: 100%;
     height: auto;

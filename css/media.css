@@ -489,7 +489,12 @@
     .wynk-music-main .container .content-right h6 {
         margin: 0 0 5px;
     }
-
+    .we-offer-par{
+        flex-direction: column;
+    }
+    #we-heading{
+        font-size: 2rem;
+    }
     /* .airtel-thanks-app-main .container {
         display: block;
     } */
