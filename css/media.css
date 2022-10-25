@@ -296,7 +296,8 @@
 
     }
     .option{
-        margin-left: 65%;
+        /* margin-left: 65%; */
+        margin-left: 55%;
         height: 30px;
         margin-top: 5px;
     }
@@ -495,6 +496,9 @@
     #we-heading{
         font-size: 2rem;
     }
+    .weather-off #we-but{
+        margin: 22% 0 0 0;
+    }
     /* .airtel-thanks-app-main .container {
         display: block;
     } */
@@ -686,7 +690,8 @@
 
     }
     .option{
-        margin-left: 7      0%;
+        /* margin-left: 70%; */
+        margin-left: 55%;
         height: 30px;
         margin-top: 5px;
     }
@@ -984,7 +989,9 @@
 }
 @media only screen and (max-width: 391px){
     .option {
-        margin-left: 75%;
+        /* margin-left: 75%; */
+        margin-left: 50%;
+
     }
     /* .app-left img {
         width: 150px;
