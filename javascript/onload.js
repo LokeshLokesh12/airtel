@@ -36,6 +36,9 @@ function geolocation() {
         function (error) {
             if (error.code == error.PERMISSION_DENIED)
                 console.log("you denied me :-(");
+                alert(`You have not allowed to access your Geolocation
+
+    We need this in order to help find jobs more relevant to you. You can provide access to this by going to your device/browser settings > Privacy & Security > Permissions.`)
         });
 }
 
